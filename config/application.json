@@ -1,0 +1,9 @@
+{
+	"general":{
+		"debug":"False",
+		"cache":"False",
+		"email_errors":""
+	},
+	"modules":["app"],
+	"routes":[]
+}

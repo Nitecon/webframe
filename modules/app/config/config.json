@@ -1,0 +1,28 @@
+{
+	"routes":{
+		"home":{
+			"type":"literal",
+			"path":"/",
+			"methods":["HEAD","GET"],
+			"defaults": {
+				"module":"application",
+				"format":"html"
+			},
+			"requirements":{
+				"format":"html|rss|json"
+			}
+		},
+		"contact":{
+			"type":"literal",
+			"path":"/contact",
+			"methods":["HEAD","GET"],
+			"defaults": {
+				"module":"application",
+				"format":"html"
+			},
+			"requirements":{
+				"format":"html|rss|json"
+			}
+		}
+	}
+}
